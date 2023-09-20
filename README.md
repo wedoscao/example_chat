@@ -2,9 +2,9 @@
 
 **_Must have cargo-watch installed._**
 
-To use this, first, fill all env variables in **.env.example** into **.env**.
+First, fill all env variables in **.env.example** into **.env**.
 
-Run make for*development*:
+Run make for _development_:
 
 ```
     make
