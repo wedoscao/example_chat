@@ -1,0 +1,20 @@
+[package]
+name = "example_chat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-files = "0.6.2"
+actix-web = "4.4.0"
+anyhow = "1.0.75"
+async-trait = "0.1.73"
+chrono = "0.4.31"
+cuid2 = "0.1.2"
+dotenv = "0.15.0"
+leptos = { version = "0.4.10", features = ["ssr"] }
+pbkdf2 = { version = "0.12.2", features = ["simple"] }
+serde = { version = "1.0.188", features = ["derive"] }
+tokio = { version = "1.32.0", features = ["full"] }
+tokio-postgres = { version = "0.7.10", features = ["with-chrono-0_4"] }
