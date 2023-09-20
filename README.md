@@ -6,8 +6,12 @@ First, fill all env variables in **.env.example** into **.env**.
 
 Run make for _development_:
 
-> make
+```
+make
+```
 
 Run make prod for _production_:
 
-> make prod
+```
+make prod
+```
