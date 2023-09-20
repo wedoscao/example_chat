@@ -2,7 +2,7 @@
 
 **_Must have cargo-watch installed._**
 
-To use this, first, fill all env variables in**.env.example**into**.env**.
+To use this, first, fill all env variables in **.env.example** into **.env**.
 
 Run make for*development*:
 
@@ -10,7 +10,7 @@ Run make for*development*:
     make
 ```
 
-Run make prod for*production*:
+Run make prod for _production_:
 
 ```
     make prod
