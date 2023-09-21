@@ -1,4 +1,4 @@
-tailwind_out = ./public/style/tailwind.css
+tailwind_out = ./public/tailwind.css
 tailwind = npx tailwindcss -o $(tailwind_out) --minify
 
 dev: 

@@ -13,6 +13,7 @@ async-trait = "0.1.73"
 chrono = "0.4.31"
 cuid2 = "0.1.2"
 dotenv = "0.15.0"
+env_logger = "0.10.0"
 leptos = { version = "0.4.10", features = ["ssr"] }
 pbkdf2 = { version = "0.12.2", features = ["simple"] }
 serde = { version = "1.0.188", features = ["derive"] }
