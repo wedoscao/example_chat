@@ -19,7 +19,7 @@ pub async fn default() -> impl Responder {
     let html = ssr::render_to_string(|cx| {
         view! {cx,
             <DefaultTemplate>
-                <span 
+                <span
                     class="text-white font-black row-span-6 row-start-6 col-span-6 col-start-4 flex items-center justify-center text-6xl"
                 >Not Found Page</span>
             </DefaultTemplate>
@@ -30,6 +30,7 @@ pub async fn default() -> impl Responder {
         .body(html)
 }
 
+#[allow(non_snake_case)]
 #[component]
 fn DefaultTemplate(cx: Scope, children: Children) -> impl IntoView {
     view! {cx,
@@ -49,6 +50,7 @@ fn DefaultTemplate(cx: Scope, children: Children) -> impl IntoView {
     }
 }
 
+#[allow(non_snake_case)]
 #[component]
 fn Header(cx: Scope) -> impl IntoView {
     view! {cx,
